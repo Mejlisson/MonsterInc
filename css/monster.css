@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+   
+  }
+  
+  header {
+    background-color:#f9f9f9; 
+    color:#333; 
+    display: flex; 
+    align-items:center;
+    justify-content:center;
+    padding: 10px; 
+    font-family: 'Arial', sans-serif; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  /* Styling av monsster formulär */
+  .monsterBox {
+      width: 300px;
+      margin: 20px auto; /* Centrera boxen på sidan */
+      padding: 20px;
+      background-color: #f9f9f9; /* Ljuskgrå bakgrund */
+      border: 2px solid #ccc; /* Grå ram */
+      border-radius: 10px; /* Rundade hörn */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+  }
+  /* Styling av monsterkortet */
+  .monster-box {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    p {
+      color:aqua;
+    }
+    button {
+      background-color: #333;
+      color: #fff;
+      border: 1px solid aqua;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: aqua;
+      }
+    }
+  }
+  
+  span {
+  margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: aqua;
+    border:1px solid #333;
+  padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    cursor: pointer;
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  
+  }
+  
+  .see-all { margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: aqua;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+  
+  
+  /* Styling av footer */
+  footer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
